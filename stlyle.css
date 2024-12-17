@@ -4,10 +4,12 @@
   width: 1280px;
   margin: 20px auto;
 }
+/* navbar start */
+
 #navbar{
   background-color: #FFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .navbar_left{
@@ -84,23 +86,24 @@ line-height: 1.5rem
 
 }
 
+/* section 1 start */
 .hero-dis{
-  color: var(--Gray-900, #132238);
-  font-family: "Work Sans";
-  font-size: 2.375rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 3.125rem;
-  align-self: stretch;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-around;
+
 }
 .charli{
-  display: flex;
-  justify-content: space-between;
-  margin: 10%;
-  gap: 5%;
+display: flex;
+gap: 3%;
+margin: 10%;
+padding: 5%;
+background: var(--Gray-50, #F0F1F3);
+font-family: "Work Sans";
 }
 .right_1{
-width: 100%;
+
 }
 .charli_btn{
   background-color: hwb(271 17% 11%);
@@ -114,33 +117,48 @@ color: #FFF;
 font-size: 15px;
 }
 .charli_1{
-display: flex;
-border-radius: 0.375rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 0.375rem;
 border: 1px solid var(--Gray-White, #FFF);
-
+background: rgba(237, 216, 255, 0.50)
 }
  
 .box_a{
-  width: 110px;
-  height: 100px;
-  justify-content: space-between;
-  padding: 5%;
-  margin: 10px;
-  justify-items: center;
+  width: 12.5rem;
+  color: var(--Gray-700, #424E60);
 text-align: center;
-  background: rgba(237, 216, 255, 0.50)
-  
+font-family: "Work Sans";
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.5rem;
+
 }
+.box_b{
+  width: 12.5rem;
+  color: var(--Gray-500, #697484);
+text-align: center;
+font-family: "Work Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem;
+}
+
+/* section 2 start */
+
 .alpha{
   
-  margin: 5%;
+  margin: 10%;
   gap: 10%;
   display: flex;
 }
 .alpha_icon{
  display: inline-flex;
- 
-
+ margin-top: -30px;
  color:hwb(271 17% 11%) ;
  padding: 12px;
  background: #FFF;
@@ -189,3 +207,248 @@ justify-content: center;
 align-items: center;
 gap: 0.75rem;
 }
+
+/* section 3 start  */
+
+.w_p{
+  margin: 13%;
+  padding: 15.5rem 18.75rem 8.75rem 18.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+.w_p_con{
+  display:flex;
+justify-content: center;
+align-items: center;
+margin: -28%;
+padding: 8%;
+align-items: flex-start;
+gap: 0.625rem;
+background: var(--Gray-50, #F0F1F3);
+}
+.w_p_left{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 90%;
+}
+.w_p_left_h6{
+  color: var(--Gray-900, #132238);
+  font-family: "Work Sans";
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: 3.5rem;
+
+}
+.w_p_left_p1{
+  width: 33.0625rem;
+  color: var(--Gray-500, #697484);
+  font-family: "Work Sans";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem;
+}
+.w_p_left_p2{
+  width: 33.0625rem;
+  color: var(--Gray-500, #697484);
+  font-family: "Work Sans";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem;
+}
+.w_p_right{
+display: flex;
+  gap: 24px;
+ 
+}
+.w_p_right_box{
+  border-radius: 0.75rem;
+  background: var(--Gray-White, #FFF);
+  box-shadow: 32px 32px 124px 0px rgba(43, 56, 76, 0.10);
+background-color: #FFF;
+padding: 2rem;
+}
+.w_p_right_iq{
+
+}
+.w_p_right_h6{
+  color: var(--Gray-900, #132238);
+  font-family: "Work Sans";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.w_p_right_p{
+  color: var(--Gray-600, #556070);
+  font-family: "Work Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; 
+}
+.rebox_l{
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+ margin-top: -29px;
+}
+.rebox_r{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+ }
+
+/* section 4 start */
+
+ .prt{
+margin: 15%;
+ }
+ .prt_head{
+  display: flex;
+flex-direction: column;
+align-items: center;
+ }
+ .prt_head h5 {
+  font-family: "Work Sans";
+  font-size: 3rem;
+  font-style: normal;
+  margin: 1px;
+ }
+ .prt_head p{
+  font-family: "Work Sans";
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.5rem;
+color: var(--Gray-400, #87909D);
+text-align: center;
+ }
+ .prt_box_all{
+  padding: 0%;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+ }
+ .prt_box_line1{
+  display: flex;
+padding: 0rem 18.75rem;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+ }
+ .prt_box{
+  display: flex;
+padding-bottom: 2rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+border-radius: 0.5rem;
+border: 1px solid var(--Gray-100, #E6E8EB);
+background: var(--Gray-White, #FFF);
+box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+ }
+ .prt_box img{
+ width: 100%;
+ }
+ .prt_box p{
+  color: var(--Gray-400, #87909D);
+  font-family: "Work Sans";
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem
+ }
+ .prt_box h5{
+  color: var(--Gray-900, #132238);
+  font-family: "Work Sans";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem;
+ }
+ .prt_btn2{
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--Primary-500, #A53DFF);
+  color: #FFF;
+  font-family: "Work Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem;
+border-radius: 0.25rem;
+border: none;
+ }
+ .asus{
+  margin: 0%;
+  padding: 0%;
+ }
+ /* idea section 5 start */
+.idea{
+  background-color: #062555;
+  color: #FFF;
+  font-family: "Work Sans";
+font-style: normal;
+text-align: center;
+padding: 1%;
+margin-top: 2%;
+}
+.idea h5{
+  font-size: 400%;
+}
+.idea p{
+  font-size: 150%;
+}
+.idea button{
+  background-color: #A53DFF;
+ border-radius: 0.25rem ;
+ font-family: "Work Sans";
+font-style: normal;
+}
+
+/* section 6 start */
+
+.blog{
+  margin: 5%;
+}
+.blog_h5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Gray-900, #132238);
+font-family: Poppins;
+font-size: 5rem;
+font-style: normal;
+line-height: 1rem;
+height: 120px;
+}
+.blog_p{
+  color: var(--Gray-400, #87909D);
+text-align: center;
+font-family: "Public Sans";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+.blog .prt_box{
+  height: 5%;
+  gap: 1px;
+  padding: 1px;
+}
+
