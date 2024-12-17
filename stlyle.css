@@ -452,3 +452,26 @@ line-height: 1.625rem;
   padding: 1px;
 }
 
+/* section 7 start */
+
+.sec7{
+  background: var(--Gray-50, #F0F1F3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+gap: 5%;
+}
+.sec7 .w_p_right_box{
+ 
+  width: 70%;
+height:30%;
+ gap: 1%;
+}
+.sec7 h6{
+  font-family: "Work Sans";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
