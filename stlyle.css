@@ -459,7 +459,7 @@ line-height: 1.625rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 8% 1% 8% 8%;
 gap: 5%;
 }
 .sec7 .w_p_right_box{
